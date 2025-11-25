@@ -207,7 +207,7 @@ p {
 
 /* Le texte reste dans la colonne de gauche */
 .sticky {
-    background: rgba(255, 255, 255, 0.76);
+    background: rgba(255, 255, 255, 0.655);
     grid-column: 1/2; 
     grid-row: span 34;
 
@@ -218,7 +218,7 @@ p {
 @media (min-width:600px){
     .sticky>div{
         position: sticky;
-        top: 190px;
+        top: 140px;
     }
 }
 
@@ -249,10 +249,9 @@ p {
 /* Colonne texte – ajout du filet vertical */
 .projet nav > .sticky {  
     position: sticky;
-    top: 100px;
     border-right: 1px solid rgb(0, 0, 0); /* filet très léger */
     padding-right: 20px; /* espace pour que le texte ne touche pas le filet */
-    margin-right: 20px;  /* espace entre filet et images */
+    top: 130px;
 }
 
 
