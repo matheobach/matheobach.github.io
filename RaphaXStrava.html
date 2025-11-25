@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>matheo bach - RaphaXStrava</title>
+
+    <link rel="stylesheet" href="https://use.typekit.net/hbv2gkt.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Thierry-Henry-2.png" type="image/png">
+</head>
+
+<body>
+
+    <header class="header">
+
+        <h1>
+            <a href="index.html">
+                <img src="logo.png" alt="matheo bach logo" width="100" height="100">
+            </a>
+        </h1>
+
+        <nav class="header-nav">
+            <div class="apropos-container">
+                <span class="apropos-text">à propos</span>
+                <div class="apropos-content">
+                    <p>matheo.bach2904@gmail.com</p>
+                    <p>étudiant en design graphique à l'ELMAD Auguste Renoir</p>
+                    <div class="apropos-footer">
+                        <a href="cv2025-v1.pdf" download class="footer-link right">CV matheo bach</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <!--  WRAPPER PROJET OBLIGATOIRE -->
+    <div class="projet">
+        <nav>
+            <div class="sticky">
+                <div>
+                    <h1 class="projet-titre">RaphaXStrava</h1>
+                    octobre 2024<br>
+                    conception d'une collection de badges
+                    <p>
+                        <br>
+                        Réalisation d’une collection de badges virtuels et de t-shirts pour le “challenge 200km” réunissant les entités Rapha et Strava et invitant les sportif.ves à arpenter les capitales européennes. 
+                        Les badges traduisent d’une immersion dans laquelle l'itinéraire du sportif devient élément graphique cheminant entre les emblèmes des villes choisies.
+
+                    </p>
+                    <br>
+                </div>
+
+            </div>
+
+            <!-- Colonnes 2-3 (images) -->
+            <img src="img/couv rxs-12-12.jpg" alt="vignette RaphaXStrava 1">
+
+            <img src="img/RxS-02.jpg" alt="vignette RaphaXStrava 2">
+
+            <img src="img/RxS-03.jpg" alt="vignette RaphaXStrava 3">
+            
+            <img src="img/RxS-04.jpg" alt="vignette RaphaXStrava 4">
+            
+           
+        </nav>
+
+    </div>
+
+
+    <script>
+        const aproposContainer = document.querySelector('.apropos-container');
+        aproposContainer.addEventListener('click', () => {
+            aproposContainer.classList.toggle('active');
+        });
+    </script>
+    <div class="spacer"></div>
+</body>
+
+</html>

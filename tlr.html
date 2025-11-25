@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>matheo bach - T'as la Recette ?</title>
+
+    <link rel="stylesheet" href="https://use.typekit.net/hbv2gkt.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Thierry-Henry-2.png" type="image/png">
+</head>
+
+<body>
+
+    <header class="header">
+
+        <h1>
+            <a href="index.html">
+                <img src="logo.png" alt="matheo bach logo" width="100" height="100">
+            </a>
+        </h1>
+
+        <nav class="header-nav">
+            <div class="apropos-container">
+                <span class="apropos-text">à propos</span>
+                <div class="apropos-content">
+                    <p>matheo.bach2904@gmail.com</p>
+                    <p>étudiant en design graphique à l'ELMAD Auguste Renoir</p>
+                    <div class="apropos-footer">
+                        <a href="cv2025-v1.pdf" download class="footer-link right">CV matheo bach</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <!--  WRAPPER PROJET OBLIGATOIRE -->
+    <div class="projet">
+        <nav>
+            <div class="sticky">
+                <div>
+                    <h1 class="projet-titre">T'as la Recette ?</h1>
+                    avril 2025<br>
+                    conception d'une collection de couvertures de livres 
+                    <p>
+                        <br>
+                        Conception d’une série de couvertures pour des livres de recettes simples et accessibles à chacun.e, quel que soit son niveau en cuisine.
+                        Le lecteur est immédiatement plongé dans le moment de la dégustation : l’acte de saucer devient le point culminant du processus culinaire, exprimant des recettes si faciles et invitantes qu’on en sauce déjà le plat.
+
+                    </p>
+                    <br>
+                </div>
+
+            </div>
+
+            <!-- Colonnes 2-3 (images) -->
+            <img src="img/couv-tlr.jpg" alt="vignette T'as la recette ? 1">
+
+            <img src="img/ltr-02.jpg" alt="vignette T'as la recette ? 2">
+
+            <img src="img/ltr-03.jpg" alt="vignette T'as la recette ? 3">
+            
+            <img src="img/tlr-04.jpg" alt="vignette T'as la recette ? 4">
+            
+            <img src="img/tlr-05.jpg" alt="vignette T'as la recette ? 5">
+           
+        </nav>
+
+    </div>
+
+
+    <script>
+        const aproposContainer = document.querySelector('.apropos-container');
+        aproposContainer.addEventListener('click', () => {
+            aproposContainer.classList.toggle('active');
+        });
+    </script>
+    <div class="spacer"></div>
+</body>
+
+</html>

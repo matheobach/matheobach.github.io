@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>matheo bach - la banlieue influence le monde</title>
+
+    <link rel="stylesheet" href="https://use.typekit.net/hbv2gkt.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="Thierry-Henry-2.png" type="image/png">
+</head>
+
+<body>
+
+    <header class="header">
+
+        <h1>
+            <a href="index.html">
+                <img src="logo.png" alt="matheo bach logo" width="100" height="100">
+            </a>
+        </h1>
+
+        <nav class="header-nav">
+            <div class="apropos-container">
+                <span class="apropos-text">à propos</span>
+                <div class="apropos-content">
+                    <p>matheo.bach2904@gmail.com</p>
+                    <p>étudiant en design graphique à l'ELMAD Auguste Renoir</p>
+                    <div class="apropos-footer">
+                        <a href="cv2025-v1.pdf" download class="footer-link right">CV matheo bach</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+
+
+    <!--  WRAPPER PROJET OBLIGATOIRE -->
+    <div class="projet">
+        <nav>
+            <div class="sticky">
+                <div>
+                    <h1 class="projet-titre">la banlieue influence le monde</h1>
+                    mai 2025<br>
+                    design éditorial
+                    <p>
+                        <br>
+                        Réalisation d’un objet éditorial collaboratif autour du thème de la banlieue parisienne et
+                        conception éditoriale de l’article “paysage de banlieue” mettant en tension les tendances
+                        architecturales et sociologiques des banlieues d’île de France.
+                    </p>
+                    <br>
+                </div>
+
+            </div>
+
+            <!-- Colonnes 2-3 (images) -->
+            <img src="banlieue/vignette-banlieue-03_resultat.png" alt="vignette banlieue 3">
+
+            <img src="banlieue/couv banlieue_resultat.jpg" alt="couv banlieue">
+
+            <img src="banlieue/vignette-banlieue-01_resultat.jpg" alt="vignette banlieue 1">
+
+            <img src="banlieue/vignette-banlieue-04_resultat.jpg" alt="vignette banlieue 4">
+            <img src="banlieue/vignette-banlieue-02_resultat.jpg" alt="vignette banlieue 2">
+
+
+
+
+        </nav>
+
+    </div>
+
+
+    <script>
+        const aproposContainer = document.querySelector('.apropos-container');
+        aproposContainer.addEventListener('click', () => {
+            aproposContainer.classList.toggle('active');
+        });
+    </script>
+    <div class="spacer"></div>
+</body>
+
+</html>
